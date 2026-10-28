@@ -49,7 +49,7 @@ export default function App() {
   const [openFaq, setOpenFaq] = useState<number | null>(0)
 
   const closeMenu = () => setMenuOpen(false)
-  const demoAction = () => window.alert('Demonstração de portfólio: este contato não está conectado a uma empresa real.')
+  const demoAction = () => window.alert('Esta é uma demonstração de portfólio. Os botões de contato ilustram a experiência e ainda não estão conectados a uma empresa real.')
 
   return (
     <div className="min-h-screen bg-[#07111f] text-white">
